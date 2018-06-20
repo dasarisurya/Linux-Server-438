@@ -44,6 +44,10 @@ O8GrZ1I/28keaYK3x2HLMWtI6X+EsBj9u2w0Brszy8njjvWRivaVpkJ+HqooCG6M
 oTcZrX79MfakU7yDCTtYnP1BKMmgVsab1FlYyn6Fvh2YeteS23yCKYQ=
 -----END RSA PRIVATE KEY-----
 ```
+### grader password
+```
+surya
+```
 ### Configuring Linux Server
 
 #### Updating all packages
