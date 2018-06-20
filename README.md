@@ -4,15 +4,15 @@
 
 ### Server Details
 
-Server IP Address 52.66.124.9
+Server IP Address 13.126.183.95
 
-Hosted site Url [http://52.66.124.9.xip.io/](http://52.66.124.9.xip.io/)
+Hosted site Url [http://13.126.183.95.xip.io/](http://13.126.183.95.xip.io/)
 
 ### How to connect as grader:
 
   save private key provided in your local machine and run the following command
   ```
-  ssh -i path/to/privatekey -p 2200 grader@52.66.124.9
+  ssh -i path/to/privatekey -p 2200 grader@13.126.183.95
     
   ```
   
