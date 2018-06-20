@@ -1,13 +1,15 @@
 # Linux-Server-438
 ### About
-  This is the Udacity project 5 about the Configuring the Linux the server.
+  This Project is about configuring the Linux-Server.
 
 ### Server Details
+
 Server IP Address 52.66.124.9
 
 Hosted site Url [http://52.66.124.9.xip.io/](http://52.66.124.9.xip.io/)
 
 ### How to connect as grader:
+
   save private key provided in your local machine and run the following command
   ```
   ssh -i path/to/privatekey -p 2200 grader@52.66.124.9
@@ -70,11 +72,11 @@ sudo apt-get upgrade
   ```
   This will grant sudo permission to grader
   #### Creating a ssh key pair for grader
-   On your local machine in terminal/command prompt
+   On your local machine in terminal/command prompt type
    ```
    ssh-keygen
    ```
-   This will generate public and private ssh keys which is saved to .ssh folder
+   Which will generate the public and private ssh keys which is saved to .ssh folder
    
    Then in your virtual machine change to newly created user
    ```
@@ -97,7 +99,7 @@ sudo apt-get upgrade
    service ssh restart
    ```
    
-   Now from your log in to grader with private key generated 
+   Log in to grader with private key generated 
    ```
    ssh -i .ssh/id_rsa grader@ipaddress 
    ```
@@ -105,7 +107,6 @@ sudo apt-get upgrade
    ```
    sudo nano /etc/ssh/sshd_config
    ```
-   Change port 22 to port 2200
     
    Restart the ssh server
    
@@ -117,7 +118,7 @@ sudo apt-get upgrade
    
    Now Login using command like this
    ```
-   ssh -i .ssh/id_rsa -p 2200 grader@ipaddress
+   ssh -i .ssh/id_rsa -p 2200 grader@youripaddress
    ```
    
   #### Disabling ssh login as root
@@ -127,14 +128,13 @@ sudo apt-get upgrade
   
   #### Configurating  Ufw firewall
   ```
+  sudo ufw status
   sudo ufw allow 2200/tcp
   sudo ufw allow 80/tcp
   sudo ufw allow 123/udp
   sudo ufw enable
   ```
   This will allow all required ports and enables the ufw
-  
-  After that 
   ```
   sudo ufw status
   ```
@@ -184,8 +184,6 @@ sudo apt-get upgrade
    CLIENT_ID = json.load(open(json_url))['web']['client_id']
    ```
    Use json_url instead client_secrets.json in script
-   
-   Reffered from [stack overflow](https://stackoverflow.com/questions/44742566/wsgi-cant-find-file-in-same-directory-in-app)
    
   ##### Install and configuring postgresql for project
    Install Postgres `sudo apt-get install postgresql`
@@ -273,11 +271,11 @@ sudo apt-get upgrade
    
    redirect URI
    
-   `http://ip.xip.io\login`
+   `http://ip.xip.io/login`
    
-   `http://ip.xip.io\gconnect`
+   `http://ip.xip.io/gconnect`
    
-   `http://ip.xip.io\callback`
+   `http://ip.xip.io/callback`
    
    [xip.io](xip.io) is a free DNS which will be the same as using IP address
    
@@ -286,6 +284,3 @@ sudo apt-get upgrade
    
    `sudo service apache2 restart`
    
-   
-   
-
