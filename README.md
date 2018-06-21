@@ -288,3 +288,7 @@ sudo apt-get upgrade
    
    `sudo service apache2 restart`
    
+## Error by previous reviewer
+It did'nt asked me to enter any passpharse.
+I'm also including my private key in reviewer notes
+![Screenshot (108).png](https://github.com/dasarisurya/Linux-Server-438/blob/master/Screenshot%20(108).png)
