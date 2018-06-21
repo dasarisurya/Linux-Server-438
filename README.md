@@ -46,6 +46,11 @@ IEBXxZFmdB28G1HTseLJ58vsb4w2bzul3aNR4m4a77DlVi+pUDr6fAJKc2AQ2UgL
 5/Y3TBKHLaVbAzepq9sOCy5cRI3GeUIiEPY9w8MhDg1rLJ+E//6VksQ=
 -----END RSA PRIVATE KEY----
 ```
+### passpharse password
+'''
+passpharse password is empty(you can directly press enter).
+If it didn't work try password 'surya'.
+'''
 ### id_rsa.pub key
 ```
 ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCmL/VXaFF/nTkw5QQBTLLP+b+rOi/XbSUZgwSo20yZSa4AaisHKUvj0VxqOxgHmmb2FQ8rkbGezIEWu6beOopYduvr7BGrxgpRsOnlC7GjzJYemf0pcyGxlmfgulk7WQvoNHd7LlcP3TT42YQYSoCH9OWTa9Jjt8Y3dC2VzUU8qVKtASJeBNuNunNASgapzUTkiS4EbWftPkE3ngfexKIZaGyI6BnWmju7Mux14d7ZPwhUECxQ5sTskfr4tcOZhDDFldWagWCRvuTQucFBvVqQo1c4GyQh24wTOB0WUYXsLxhHyEKQiSDIBaa9o+aPNA+scn0BkstVqvTBNzdAXCHr user@vinay
